@@ -1,0 +1,116 @@
+.pagination-rose > .page-item.active > a, .pagination > .page-item.active > a:focus{
+    background-color: #e91e63;
+    border-color: #e91e63;
+}
+
+.image_picker_selector .thumbnail img{
+	width:128px;
+}
+
+.opciones-toolbar{
+	float:right; 
+	margin-top: -75px; 
+	z-index: 50;
+}
+
+.dropdown-item-rose:focus, .dropdown-menu .dropdown-item-rose:hover, .dropdown-menu-rose a:active, .dropdown-menu-rose a:focus, .dropdown-menu-rose a:hover {
+    background-color: #e91e63;    
+}
+ 
+.nav-pills.nav-pills-warning .nav-item .nav-link.active, .nav-pills.nav-pills-warning .nav-item .nav-link.active:focus, .nav-pills.nav-pills-warning .nav-item .nav-link.active:hover {
+
+    background-color: #e91e63;
+    box-shadow: 0 4px 20px 0 rgba(0,0,0,.14),0 7px 10px -5px rgba(233,30,99,.4);
+    color: #fff;
+
+}
+
+.hidden{
+	display: none;
+}
+
+.alcien{
+	background-image: none !important;
+}
+
+.fileinput-preview img{
+	max-width: 192px;
+}
+
+.dataTable .img-container img{
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.highlight .modal-body{
+	background-color:rgba(180, 185, 225, 0.3);
+}
+
+.material-icon-picker {
+	position: absolute;
+	background: #fcfcfc;
+	text-align: center;
+	box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+	padding: 20px;
+	z-index: 500;
+}
+
+.material-icon-picker:focus {
+	outline: none;
+}
+
+.material-icon-picker-prefix {
+	top: .5rem;
+}
+
+.material-icon-picker .icons {
+	max-width: 300px;
+	max-height: 200px;
+	overflow: scroll;
+}
+
+div.material-icon-picker input[type="text"] {
+	width: 100%;
+}
+
+.material-icon-picker .material-icons {
+	font-size: 30px;
+	cursor: pointer;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 3px;
+	transition: .2s;
+}
+
+.material-icon-picker .material-icons:hover {
+	background: #ececec;
+}
+
+.selector-icono .material-icon-picker-prefix{
+	font-size: 80px;
+	min-height: 80px;
+	text-align: center;
+	width: 100%;
+}
+
+.selectCopado{
+	position: relative;
+	flex: 1 1 auto;
+	width: 1%;
+	margin-bottom: 0;
+}
+
+.form-check-seleccionado{
+	font-weight: bold;
+    color: #9c27b0;
+}
+
+label.form-control{
+	height:auto;
+}
+.btn.btn-excel {
+    color: #fff;
+    background-color: #008000;
+    border-color: #008000;
+    box-shadow: 0 2px 2px 0 rgba(59,89,152,.14),0 3px 1px -2px rgba(59,89,152,.2),0 1px 5px 0 rgba(59,89,152,.12);
+}

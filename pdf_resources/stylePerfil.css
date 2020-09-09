@@ -1,0 +1,295 @@
+/* Gotham Webfont
+-------------------------------------------------------------------------------*/
+
+@font-face {
+	font-family: 'Gotham-Light';
+	src: url('fonts/gotham/gotham-light-webfont.eot');
+	src: url('fonts/gotham/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gotham/gotham-light-webfont.woff') format('woff'),
+		url('fonts/gotham/gotham-light-webfont.ttf') format('truetype'),
+		url('fonts/gotham/gotham-light-webfont.svg#Gotham-Light') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Gotham';
+	src: url('fonts/gotham/gotham-book-webfont.eot');
+	src: url('fonts/gotham/gotham-book-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gotham/gotham-book-webfont.woff') format('woff'),
+		url('fonts/gotham/gotham-ligbookht-webfont.ttf') format('truetype'),
+		url('fonts/gotham/gotham-book-webfont.svg#Gotham-Regular') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gotham-Medium';
+	src: url('fonts/gotham/gotham-medium-webfont.eot');
+	src: url('fonts/gotham/gotham-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gotham/gotham-medium-webfont.woff') format('woff'),
+		url('fonts/gotham/gotham-medium-webfont.ttf') format('truetype'),
+		url('fonts/gotham/gotham-medium-webfont.svg#Gotham-Medium') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: 'Gotham-Bold';
+	src: url('fonts/gotham/gotham-bold-webfont.eot');
+	src: url('fonts/gotham/gotham-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gotham/gotham-bold-webfont.woff') format('woff'),
+		url('fonts/gotham/gotham-bold-webfont.ttf') format('truetype'),
+		url('fonts/gotham/gotham-bold-webfont.svg#Gotham-Bold') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'gothamblack';
+	src: url('fonts/gotham/gotham-black-webfont.eot');
+	src: url('fonts/gotham/gotham-black-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gotham/gotham-black-webfont.woff') format('woff'),
+		url('fonts/gotham/gotham-black-webfont.ttf') format('truetype'),
+		url('fonts/gotham/gotham-black-webfont.svg#Gotham-Bold') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'gothamlight';
+	src: url('fonts/gotham/gotham-light-webfont.eot');
+	src: url('fonts/gotham/gotham-light-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gotham/gotham-light-webfont.woff') format('woff'),
+		url('fonts/gotham/gotham-light-webfont.ttf') format('truetype'),
+		url('fonts/gotham/gotham-light-webfont.svg#Gotham-Bold') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'gothamxlight';
+	src: url('fonts/gotham/GothamExtraLight.eot');
+	src: url('fonts/gotham/GothamExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('fonts/gotham/GothamExtraLight.woff') format('woff'),
+		url('fonts/gotham/GothamExtraLight.ttf') format('truetype'),
+		url('fonts/gotham/GothamExtraLight.svg#Gotham-Bold') format('svg');
+	font-weight: 400;
+	font-style: normal;
+}
+*, *:before, *:after {
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+@page {
+    margin: 0;
+  }
+@media print {
+  
+    .pagebreak {
+        clear: both;
+        page-break-after: always;
+    }
+}
+
+a{
+    color: #000;
+    text-decoration: underline;
+}
+
+.pagebreak {
+    clear: both;
+    page-break-after: always;
+}
+
+
+body {
+    line-height: 1.8;
+    height: 100%;
+    color: #222;
+    font-family: 'Gotham', Helvetica, sans-serif;
+    font-size: 12px;
+}
+html{
+    height: 100%;
+}
+img {
+    border: 0; /* 1 */
+    -ms-interpolation-mode: bicubic; /* 2 */
+}
+
+/**
+ * Remove most spacing between table cells.
+ */
+ table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img{
+	max-width: 100%;
+	height: auto !important;
+}
+
+.content{
+	padding: 0;
+	display: table;
+	position: relative;
+}
+
+strong{
+    font-family: 'Gotham-Medium';
+}
+.header{
+}
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+	font-family: 'Gotham-Bold';
+	font-weight: 800;
+}
+h1{
+	font-size: 28px;
+	letter-spacing: -2px;
+	padding: 0 0 20px;
+}
+h1.title{
+	padding-top: 20px;
+}
+h2{
+	font-size: 22px;
+	letter-spacing: -2px;
+	padding: 0 0 15px;
+}
+h3{
+	font-size: 20px;
+	letter-spacing: -2px;
+	padding: 0 0 15px;
+}
+h4{
+	font-size: 18px;
+	padding: 0 0 10px;
+	letter-spacing: -1px;
+}
+h4.card-title{
+    padding-top: 30px;
+    border-bottom: 1px solid #999;
+    margin-bottom: 15px;
+}
+/*h4.card-title::after{
+    content: "";
+    height: 1px;
+    width: 40px;
+    background-color: #222;
+    margin-top: 10px;
+    display: block;
+}*/
+h5{
+	font-size: 16px;
+	padding: 0 0 15px;
+	letter-spacing: -1px;
+}
+
+h6{
+	font-size: 14px;
+	padding: 0 0 15px;
+}
+p{
+	font-size: 12px;
+	padding: 0 0 15px;
+	margin: 0;
+}
+
+table{
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+td{
+    padding: 0;
+    margin: 0;
+}
+/*
+.ficha{
+    margin-bottom: 15px;
+    background-color: #fafafa;
+    padding: 20px;
+}
+*/
+table, img, svg, .card {
+    break-inside: avoid;
+	page-break-inside: avoid;
+	display: block;
+	position: relative;
+  }
+
+  @page {
+    margin: 1cm;
+	margin-top: 2cm;
+	margin-bottom: 2cm;
+  }
+  
+  /* target the first page only */
+  @page :first {
+    margin-top: 2cm;
+  }
+  
+  /* target left (even-numbered) pages only */
+  @page :left {
+    margin-right: 1cm;
+  }
+  
+  /* target right (odd-numbered) pages only */
+  @page :right {
+    margin-left: 1cm;
+  }
+
+  .cols{
+    -webkit-columns: 3 150px;
+    -moz-columns: 3 150px;
+    columns: 3 150px;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+  }
+
+  small{
+      display: block;
+      font-size: 11px;
+      color: #666666;
+  }
+  .bloque{
+      border: 1px solid #ddd;
+      padding: 15px;
+      margin-bottom: 15px;
+  }
+  .bloque:last-child{
+	margin-bottom: 0px;
+  }
+  .alignRight{
+	  text-align: right;
+  }

@@ -1,0 +1,324 @@
+h2{
+    text-transform: uppercase;
+    color: #00a7c7;
+    font-family: 'gothamblack';
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0 0 10px;
+    display: block;
+}
+p{
+    font-size: 12px;
+    margin-bottom: 10px !important;
+    display: block;
+}
+div.pbox{
+    padding-bottom: 10px;
+    display: block;
+}
+.colbg{
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.coltxt{
+    font-size: 12px;
+    color: #616161;
+    line-height: 16px;
+}
+.txtBoxDiv{
+    background-color: #f2f2f2;
+    padding: 20px 20px 10px;
+    margin: 0 0 10px;
+    font-size: 12px;
+    color: #616161;
+}
+.leftHeader{
+    float: left;
+    width: 60%;
+}
+.rightHeader{
+    float: right;
+    padding: 0 10px 0 30px;
+    text-align: right;
+    width: 25%;
+    height: 60px;
+    background: url(https://www.fontagro.org/graficos/admin/application/controllers/assets/images/headerBg.png) top left no-repeat;
+}
+.colsBox{
+    padding: 20px 0 0;
+}
+.floatLeft{
+    float: left;
+    margin-right: 0;
+}
+.floatRight{
+    float: right;
+}
+.col03{
+    width: 33.333%
+}
+.col02{
+    width: 50%
+}
+.col03 .title, .col02 .title{
+    background-color: #85be59;
+}
+.col02 .title.empty{
+    background-color: transparent !important;
+    height: 40px;
+}
+h3{
+    color: #fff;
+    font-size: 11px;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.col03 .tleft, .col02 .tleft{
+    background: url(https://www.fontagro.org/graficos/admin/application/controllers/assets/images/titleRight.png) top right no-repeat;
+    background-size: auto 100%;
+}
+.col03 .tright, .col02 .tright{
+    background: url(https://www.fontagro.org/graficos/admin/application/controllers/assets/images/titleLeft.png) top left no-repeat;
+    background-size: auto 100%;
+}
+.col03 .titleSpace, .col02 .titleSpace{
+    color: #fff;
+    text-transform: uppercase;
+    height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.paisesBox{
+    padding: 20px 0 0;
+}
+.titleBox{
+    width: 25%;
+    margin-right: 1%;
+    text-transform: uppercase;
+}
+.titleBox .title{
+    background-color: #85be59;
+}
+.titleBox .titleSpace{
+    color: #fff;
+    text-transform: uppercase;
+    height: 40px;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.flagsBox{
+    width: 74%;
+}
+.countryBox{
+    float: left;
+    width: 25%;
+}
+.countryBox table{
+    margin-bottom: 3px;
+}
+.countryTd{
+    font-size: 9px;
+    color: #595a5c;
+    padding: 2px 0px 2px 5px;
+    background-color: #f0f0f0;
+    text-align: left;
+    line-height: 9px;
+}
+.titleBox .tleft{
+    background: url(https://www.fontagro.org/graficos/admin/application/controllers/assets/images/titleRight.png) top right no-repeat;
+    background-size: auto 100%;
+}
+.labelsBox{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 15px 0 0;
+}
+.label{
+    width: 50%;
+    float: left;
+}
+.labeltxt{
+    font-size: 9px;
+    color: #595a5c;
+}
+.dot{
+    height: 32px;
+    width: 32px;
+    background-color: #bbb;
+    border-radius: 50%;
+    float: left;
+}
+/* TABLE */
+.examplesTable td, .examplesTable th{
+    border-bottom: 1px solid #fff;
+}
+.tableTitle{
+    background-color: #00a7c7;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 7px;
+    font-weight: bold;
+}
+.tableHeader{
+    background-color: #17b3b2;
+    color: #fff;
+    text-align: left;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 7px;
+    font-weight: bold;
+}
+.tableAnio, .nameTd{
+    background-color: #dddede;
+    color: #1d1d1b;
+    vertical-align: top;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 7px;
+}
+.partTd{
+    background-color: #e1f1ec;
+    color: #1d1d1b;
+    vertical-align: top;
+    font-size: 11px;
+    padding: 7px;
+    text-align: center;
+}
+.contrTd{
+    background-color: #99d4c9;
+    color: #1d1d1b;
+    vertical-align: top;
+    font-size: 11px;
+    padding: 7px;
+    text-align: center;
+}
+.tableLider{
+    background-color: #f3f3f4;
+    color: #1d1d1b;
+    vertical-align: top;
+    font-size: 11px;
+    padding: 7px;
+    text-transform: uppercase;
+}
+.tableMiembros{
+    background-color: #99d4c9;
+    color: #1d1d1b;
+    vertical-align: top;
+    font-size: 11px;
+    padding: 7px;
+}
+.tableTitleSimple{
+    background-color: #e2f1ed;
+    color: #1d1d1b;
+    vertical-align: top;
+    font-size: 11px;
+    padding: 7px;
+}
+.tableTotal{
+    background-color: #99d4c9;
+    color: #1d1d1b;
+    vertical-align: top;
+    font-size: 11px;
+    padding: 7px;
+}
+
+.valueBox{
+    margin: 5px 0 0;
+}
+.valueBoxSmall{
+    margin: 0 0 3px;
+}
+.smallBox{
+    margin: -5px 0 0 20px;
+    border-top: 3px solid #fff;
+}
+.color01{
+    background-color: #00a7c7;
+}
+.color02{
+    background-color: #17b3b2;
+}
+.color03{
+    background-color: #35b39b;
+}
+.color04{
+    background-color: #b9d78b;
+}
+.color05{
+    background-color: #cfd0d0;
+}
+.color06{
+    background-color: #f3f3f3;
+}
+.valueBox td{
+    width: 50%;
+    vertical-align: middle;
+}
+.valueBox td.firstCol{
+    font-size: 32px;
+    text-align: center;
+    color: #fff;
+    font-family: 'gothamxlight';
+}
+.valueBoxSmall td.firstCol{
+    font-size: 19px;
+    width: 40%;
+    text-align: center;
+    color: #616161;
+    font-family: 'gothamxlight';
+}
+.valueBox td.secondCol{
+    font-size: 12px;
+    text-align: left;
+    color: #fff;
+    line-height: 1.3;
+}
+.valueBoxSmall td.secondCol{
+    font-size: 11px;
+    text-align: left;
+    color: #fff;
+    line-height: 1.2;
+    width: 60%;
+}
+.valueBox .smallTxt{
+    font-size: 10px;
+}
+.color04 td.firstCol, .color04 td.secondCol, .valueBoxSmall td.firstCol, .valueBoxSmall td.secondCol,
+.color05 td.firstCol, .color05 td.secondCol,
+.color06 td.firstCol, .color06 td.secondCol{
+    color: #616161;
+}
+ol {
+	padding: 0 0 0 15px;
+  }
+.tableResumen{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.resumenTr td{
+    padding: 10px;
+    border-bottom: 3px solid #fff;
+}
+.resumenTd{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f3f3f3;
+    font-size: 11px;
+    line-height: 16px;
+    color: #595a5c;
+
+}
+
+.imgResumen{
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 15px;
+}
