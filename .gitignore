@@ -1,6 +1,5 @@
 .DS_Store
 .scannerwork
-.htaccess
 application/cache/*
 tinymce/plugins/filemanager/config.php
 !application/cache/index.html
